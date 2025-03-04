@@ -1,0 +1,40 @@
+body {
+  /* background: url('./assets/co.jpg') no-repeat center center/cover; */
+  background: url('./assets/cozy.jpg') no-repeat center center/cover;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease-in-out;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-container {
+  text-align: center;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  width: 600px;
+}
+
+.timer-box {
+  max-width: 400px;
+  margin: auto;
+}
+
+.timer-display {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.time-buttons button {
+  font-size: 1.2rem;
+  margin: 5px;
+}
+
+.dark-mode {
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+}
